@@ -14,7 +14,7 @@ import uvicorn  # ASGI server
 mcp = FastMCP("weather")
 
 # Constants for API access
-MYLIFE_API_BASE = "https://mylife.ngrok.app/api/v1"
+MYLIFE_API_BASE = "https://humanremembranceproject.org/api/v1"
 MYLIFE_API_TOKEN = "mylife-7f38c94d1a56e79b0c8f236e742a5d8f3aed5b90c71f9d82e4ba6c3f19a7e048"
 
 async def make_mylife_request(url: str) -> dict[str, Any] | None:
